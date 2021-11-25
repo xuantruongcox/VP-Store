@@ -1,3 +1,4 @@
+import { StaticImage } from 'gatsby-plugin-image';
 import * as React from 'react';
 import { useEffect, useState } from 'react';
 import { Container, Row, Col, Card } from 'react-bootstrap';
@@ -6,7 +7,7 @@ const ProductsPage = () => {
     let [data, setData] = useState([]);
     useEffect(() => {
         const fetchingData = async () => {
-            const result = await fetch('https://fakestoreapi.com/products');
+            const result = await fetch('https://vp-store.herokuapp.com/users');
             const allResult = await result.json();
             setData(allResult);
         }
@@ -21,11 +22,11 @@ const ProductsPage = () => {
                             return <Col xs="3" key={index}>
                                 <div className="product">
                                     <div className="product__img">
-                                        <img src={item.image} height="145" alt="" />
+                                        <StaticImage alt="" src="https://image.made-in-china.com/2f0j00rspavwZArDog/High-Quality-EGO-CE4-EGO-T-CE4-Electronic-Cigarette-650-900-1100mAh.jpg" />
                                     </div>
                                     <div className="product__body">
-                                        <div className="product__body-title">{item.title}</div>
-                                        <div className="product__body-text">{item.description}</div>
+                                        <div className="product__body-title">{item.name}</div>
+                                        <div className="product__body-text">{item.prices}$</div>
                                     </div>
                                 </div>
 

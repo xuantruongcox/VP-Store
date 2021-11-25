@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunke_comerce_vape=self.webpackChunke_comerce_vape||[]).push([[678],{7704:function(e,n,c){c.r(n);var t=c(7294),r=c(539);n.default=function(){return t.createElement(t.Fragment,null,t.createElement(r.Z,null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-3c8df9d64e37bea08b13.js.map
