@@ -1,5 +1,5 @@
 {
-    "componentChunkName": "component---src-pages-index-js",
+    "componentChunkName": "component---src-pages-contentful-page-url-js",
     "path": "/",
-    "result": {"pageContext":{}},
+    "result": {"data":{"contentfulPage":{"url":"/","title":"Home Page","description":{"description":"This is home page"},"image":{"file":{"url":"//images.ctfassets.net/hrta582y35cs/5MvQH6J6lPrCFFFBpHC0Lm/e7e5a3efc0a3c4a804214e0a3e129d6d/Slice_1Koletic-left.png"}}}},"pageContext":{"id":"9ebc85c9-bfbe-5b10-a06b-e8f85a852916","url":"/","__params":{}}},
     "staticQueryHashes": []}

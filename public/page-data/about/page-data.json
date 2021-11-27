@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-contentful-page-url-js",
+    "path": "/about/",
+    "result": {"data":{"contentfulPage":{"url":"/about","title":"About Page","description":{"description":"this is about pages"},"image":null}},"pageContext":{"id":"3635aab8-bd0c-5192-a473-bb8686604d75","url":"/about","__params":{"url":"about"}}},
+    "staticQueryHashes": []}
