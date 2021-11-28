@@ -7,7 +7,7 @@ const ProductsPage = () => {
     let [data, setData] = useState([]);
     useEffect(() => {
         const fetchingData = async () => {
-            const result = await fetch('https://vp-store.herokuapp.com/users');
+            const result = await fetch('https://vp-store.herokuapp.com/products');
             const allResult = await result.json();
             setData(allResult);
         }

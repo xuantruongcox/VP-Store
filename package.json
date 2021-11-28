@@ -29,6 +29,7 @@
     "gatsby-source-contentful": "^7.0.0",
     "gatsby-source-custom-api": "^2.3.2",
     "gatsby-source-graphql": "^4.2.0",
+    "gatsby-transformer-json": "^4.2.0",
     "gatsby-transformer-sharp": "^4.2.0",
     "jquery": "^3.6.0",
     "mongodb": "^4.2.0",

@@ -1,9 +1,10 @@
-require('dotenv').config({path: `.env.${process.env.NODE_ENV}`})
+require('dotenv').config({ path: `.env.${process.env.NODE_ENV}` })
 module.exports = {
   siteMetadata: {
     title: "e-comerce vape",
   },
   plugins: [
+    "gatsby-transformer-json",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-transformer-sharp",
@@ -12,21 +13,23 @@ module.exports = {
     {
       resolve: "gatsby-source-custom-api",
       options: {
-        url: {
-          development: 'https://vp-store.herokuapp.com/users',
-          production: 'https://vp-store.herokuapp.com/users'
-        },
-        rootKeys: 'users',
+        url: 'https://vp-store.herokuapp.com/products',
+        rootKey: 'products',
+        imageKeys: ["images"],
         schemas: {
-          users: `
+          products: `
+            type: String
             name: String
-            email: String
-            password: String
+            prices: Float
+            images: [images]
+          `,
+          images: `
+            url: String
           `
         }
       }
     }
- 
+
   ],
 
 };

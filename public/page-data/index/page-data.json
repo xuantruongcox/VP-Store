@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"pageContext":{}},
+    "result": {"data":{"allProducts":{"nodes":[{"type":"ego","name":"ego aio","prices":50},{"type":"ego","name":"ego aio","prices":50}]}},"pageContext":{}},
     "staticQueryHashes": []}
