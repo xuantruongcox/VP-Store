@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunke_comerce_vape=self.webpackChunke_comerce_vape||[]).push([[678],{7704:function(e,a,c){c.r(a);var n=c(7294),t=c(539);a.default=function(e){var a=e.data;return n.createElement(t.Z,null,n.createElement("div",{className:"row"},a.allProducts.nodes.map((function(e,a){return n.createElement("div",{key:a,className:"col"},n.createElement("h2",null,e.name),n.createElement("p",null,e.prices))}))))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-ad61fdc512f5eeba3108.js.map

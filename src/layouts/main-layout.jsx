@@ -12,7 +12,7 @@ export default class MainLayout extends React.Component {
         return (
             <React.Fragment>
                 <NavbarComponent></NavbarComponent>
-                <div className="main-content">
+                <div className="container main-content">
                     {this.props.children}
                 </div>
             </React.Fragment>

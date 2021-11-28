@@ -5,14 +5,13 @@ const MainPages = ({ data }) => {
     return (
         <MainLayout>
             <div className="row">
-                {data.allProducts.nodes.map((item, index) => {
-                    return (
-                        <div key={index} className="col">
-                            <h2>{item.name}</h2>
-                            <p>{item.prices}</p>
+               {data.allTester.nodes.map(item=>{
+                   return (
+                       <div className="col">
+                           <h2>{item.name}</h2>
                         </div>
-                    )
-                })}
+                   )
+               })}
             </div>
         </MainLayout>
     )
@@ -20,7 +19,7 @@ const MainPages = ({ data }) => {
 
 export const query = graphql`
 query pageQuery {
-    allProducts {
+    allTester {
       nodes {
         type
         name

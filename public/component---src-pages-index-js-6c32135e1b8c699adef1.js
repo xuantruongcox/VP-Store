@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunke_comerce_vape=self.webpackChunke_comerce_vape||[]).push([[678],{7704:function(e,a,n){n.r(a);var t=n(7294),c=n(539);a.default=function(e){var a=e.data;return t.createElement(c.Z,null,t.createElement("div",{className:"row"},a.allTester.nodes.map((function(e){return t.createElement("div",{className:"col"},t.createElement("h2",null,e.name))}))))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-6c32135e1b8c699adef1.js.map
