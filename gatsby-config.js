@@ -10,10 +10,20 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-image",
     {
-      resolve: "gatsby-source-contentful",
+      resolve: "gatsby-source-custom-api",
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_DELIVERY_ACCESS_TOKEN
+        url: {
+          development: 'https://vp-store.herokuapp.com/users',
+          production: 'https://vp-store.herokuapp.com/users'
+        },
+        rootKeys: 'users',
+        schemas: {
+          users: `
+            name: String
+            email: String
+            password: String
+          `
+        }
       }
     }
  
